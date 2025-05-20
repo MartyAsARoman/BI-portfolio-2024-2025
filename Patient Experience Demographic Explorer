@@ -1,0 +1,32 @@
+Patient Experience Demographic Explorer
+
+Purpose:
+An interactive analytics tool designed to uncover hidden patterns in patient experience survey responses and highlight anomalies that merit further investigation. The explorer empowers stakeholders to quickly analyze sentiment across multiple demographic, geographic, and organizational factors using responsive, interdependent visuals.
+
+Business Problem:
+Patient satisfaction is critical to hospital performance, but with millions of responses across facilities and demographics, identifying actionable insights is challenging. Leadership needed a scalable, intuitive way to pinpoint problem areas and improve service delivery.
+
+Solution:
+I developed a dynamic Power BI dashboard that enables users to filter and visualize patient sentiment trends across divisions, regions, markets, facilities, payer type, diagnosis, treatment, and patient/physician demographic slices (e.g., age, ethnicity, education). The solution uses:
+Action filters to allow seamless, multi-layered exploration
+Linked visual elements to surface anomalies in subgroups
+Response ratios and volume metrics to contextualize feedback
+Time trend analysis for seasonality and volume-induced bias
+Custom DAX measures for composite sentiment scoring
+
+Features:
+Drill-through views by division, region, facility, payer type, service line, etc.
+Demographic insights, including age group, education level, ethnicity, gender identity, etc.
+Visual breakdown of positive, neutral, and negative response types
+High interactivity with slicers for custom taxonomies
+
+Results:
+Enabled rapid identification of underperforming demographics, locations, and physicians
+Helped uncover outlier facilities with disproportionately high negative responses
+Supported leadership with data-backed improvement strategies
+
+Tools & Technologies:
+Power BI Desktop & Power BI Service
+DAX / Data Modeling
+SQL (ETL Source Integration)
+Healthcare survey data (Press Ganey)
